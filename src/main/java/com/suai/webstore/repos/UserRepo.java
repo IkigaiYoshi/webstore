@@ -1,0 +1,10 @@
+package com.suai.webstore.repos;
+
+import com.suai.webstore.domain.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepo extends JpaRepository<User, Long> {
+    User findByUsername(String username);
+}
+
+

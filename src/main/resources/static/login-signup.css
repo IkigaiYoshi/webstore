@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.varela { font-family: 'Varela Round', sans-serif; }
+.roboto { font-family: 'Roboto', sans-serif; }
+.open-sans { font-family: 'Open Sans', sans-serif; }
+
+body {
+    margin: 0;
+}
+
+.login-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.login-form input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #008CBA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form button:hover {
+    opacity: 0.8;
+}
+
+.signup-callout {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main {
+    margin-top: 80px;
+}
+
+.error {
+    padding: 10px;
+    background-color: #eb3131;
+    border-radius: 5px;
+    text-align: center;
+}
